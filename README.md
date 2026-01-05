@@ -32,3 +32,8 @@ Created a Windows Server 2022 lab to practice users, groups, and folder permissi
 - Practiced creating users and groups
 - Applied folder permissions to simulate role-based access control (RBAC)
 - Simulated departmental access control for multiple groups
+
+## Errors & Fixes
+- Initially, non-group users could access C:\LabFolder due to inherited permissions → fixed by disabling inheritance and removing default Users group.
+- Tested conflicting permissions (Allow vs Deny) to confirm Deny overrides Allow.
+- Practiced restoring access after accidentally removing a user/group from folder permissions.
