@@ -1,4 +1,4 @@
-# IT Home Lab - Week 1
+# IT Home Lab 
 
 ## Lab Overview
 Created a Windows Server 2022 lab to practice users, groups, and folder permissions, including a departmental folder simulation for HR and IT.
